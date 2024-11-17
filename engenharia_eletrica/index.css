@@ -1,0 +1,686 @@
+/* Estilos Gerais --------------------------------------------------------------------------------------------------------------------------- */
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.engenharia-container {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 9999px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Inter;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    border-radius: 0px 0px 148px 148px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 635px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.grupo-linha {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 9566.75;
+    top: -400px;
+    
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 38px;
+    left: 44px;
+    width: 127px;
+    height: 32px;
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.6s ease; 
+}
+
+.botao-voltar:hover {
+    transform: scale(1.1);
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Sobre o Curso ----------------------------------------------------------------------------------------------------------------------------*/
+.grupo-sobre-o-curso {
+    position: absolute;
+    top: 735px;
+    left: calc(50% - 718px);
+    width: 1438px;
+    height: 510px;
+}
+
+.container-sobre-o-curso {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 70px);
+    display: inline-block;
+    width: 789px;
+    height: 426px;
+}
+
+.titulo-sobre-o-curso {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.img-sobre-o-curso {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-radius: 70px 10px 70px 10px;
+    width: 627px;
+    height: 500px;
+    object-fit: cover;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* O que vamos aprender? --------------------------------------------------------------------------------------------------------------------*/
+.grupo-o-que-vamos-aprender {
+    position: absolute;
+    top: 1255px;
+    left: 96px;
+    width: 1721px;
+    height: 1105px;
+    color: #fffefe;
+    font-family: Inter;
+}
+.container-aprender {
+    position: absolute;
+    top: 113px;
+    left: 0px;
+    border-radius: 10px 70px 10px 70px;
+    background-color: #242149;
+    width: 1636px;
+    height: 972px;
+}
+
+.container-aprender p {
+    width: 950px;
+    margin-left: 50px;
+}
+
+.titulo-aprender {
+    font-size: 42px;
+    margin-bottom: 0;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.img-homem-pensativo {
+    position: absolute;
+    top: -20px;
+    left: 956px;
+    width: 765px;
+    height: 1105px;
+    object-fit: cover;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Grupo de pesquisas -----------------------------------------------------------------------------------------------------------------------*/
+.grupo-pesquisas {
+    position: absolute;
+    top: 2457px;
+    left: 300px;
+    width: 1596px;
+    height: 939px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.titulo-grupo-pesquisas {
+    position: absolute;
+    top: 0px;
+    font-size: 42px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    width: 1274px;
+    height: 101px;
+}
+/* Blocos - Grupo de pesquisas ---------------------------------------------------------------------------------------------------------------*/ 
+.bloco-sistemas-its-item {
+    position: absolute;
+    top: 146px;
+    left: 112px;
+    border-top: 1px solid #00a766;
+    box-sizing: border-box;
+    width: 81px;
+    height: 1px;
+}
+
+.bloco-energia-renovaveis {
+    position: absolute;
+    top: 221px;
+    left: 0px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.img-geral {
+    position: absolute;
+    top: 19px;
+    left: 92px;
+    width: 119px;
+    height: 119px;
+    overflow: hidden;
+}
+
+.titulo-geral {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 600;
+    width: 230px;
+    height: 17px;
+    text-align: center;
+}
+
+.paragrafo-geral {
+    position: absolute;
+    top: 175px;
+    left: 24px;
+    font-weight: 500;
+    display: inline-block;
+    width: 270px;
+    height: 142px;
+}
+
+.bloco-eletromagnetismo {
+    position: absolute;
+    top: 221px;
+    left: 323px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.bloco-ia {
+    position: absolute;
+    top: 221px;
+    left: 646px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.ia {
+    position: absolute;
+    height: 28.53%;
+    width: 32.01%;
+    top: 6.91%;
+    left: 33.99%;
+    font-size: 100px;
+    font-weight: 500;
+    color: #00a766;
+    display: inline-block;
+}
+
+.bloco-eletronico {
+    position: absolute;
+    top: 221px;
+    left: 970px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+
+.bloco-arquitetura-de-computacao {
+    position: absolute;
+    top: 604px;
+    left: 160px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.bloco-microeletronica {
+    position: absolute;
+    top: 604px;
+    left: 485px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.img-microeletronica {
+    position: absolute;
+    top: 2px;
+    left: 75px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.bloco-controle-automacao {
+    position: absolute;
+    top: 604px;
+    left: 810px;
+    box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
+    width: 303px;
+    height: 333px;
+    background-color: #242149;
+    border-radius: 10px;
+}
+
+.img-controle-automacao {
+    position: absolute;
+    top: 30px;
+    left: 95px;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+/* Grupo palestras --------------------------------------------------------------------------------------------------------------------------*/
+.grupo-palestras {
+    position: absolute;
+    top: 3546px;
+    left: calc(50% - 798px);
+    width: 1549px;
+    height: 576px;
+    color: #fff;
+}
+
+.bloco-texto-palestras {
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    width: 790px;
+    height: 400px;
+}
+
+.titulo-palestras {
+    width: 644px;
+    position: relative;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 42px;
+    margin: 0;
+}
+
+.imgs-paletras {
+    position: absolute;
+    top: 0px;
+    left: 849px;
+    width: 700px;
+    height: 576px;
+}
+
+.img-palestras-retangulo-1 {
+    position: absolute;
+    top: 164px;
+    left: 0px;
+    border-radius: 70px 10px 70px 10px;
+    width: 323px;
+    height: 412px;
+    object-fit: cover;
+}
+
+.img-palestras-retangulo-2 {
+    position: absolute;
+    top: 0px;
+    left: 294px;
+    border-radius: 70px 10px 70px 10px;
+    width: 406px;
+    height: 518px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Vídeo do curso  ---------------------------------------------------------------------------------------------------------------------------*/
+.container-mais-sobre-o-curso {
+    position: absolute;
+    top: 4272px;
+    left: 323px;
+    width: 1274px;
+    height: 796px;
+    font-size: 42px;
+}
+
+.bloco-texto-video {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 400px);
+}
+
+.texto-sobre-o-curso-1 {
+    font-weight: 500;
+}
+
+.video-container {
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 71px;
+    left: 0px;
+    border-radius: 10px;
+    width: 1274px;
+    height: 725px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Semana da Engenharia ----------------------------------------------------------------------------------------------------------------------*/
+.grupo-semana-da-engenharia {   
+    position: absolute;
+    top: 5213px;
+    left: calc(50% - 798px);
+    width: 1596px;
+    height: 946px;
+}
+
+.bloco-texto-semana-da-engenharia {
+    position: absolute;
+    top: -40px;
+    left: calc(50% + 10px);
+    display: inline-block;
+    width: 788px;
+    height: 943px;
+}
+
+.titulo-semana-da-engenharia{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: Inter;
+    margin-bottom: -35px; 
+}
+
+.img-linhalogo {
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 130px);
+    width: 99px;
+    height: 941px;
+}
+
+.imgs-semana-da-engenharia {
+    width: 100%;
+    position: relative;
+    height: 941px;
+    }
+
+.img-semana-da-engenharia-image-1 {
+    position: absolute;
+    top: 293.54px;
+    left: 381px;
+    border-radius: 10px;
+    width: 245px;
+    height: 282.5px;
+    object-fit: cover;
+}
+
+.img-semana-da-engenharia-image-2 {
+    position: absolute;
+    top: 0px;
+    left: 381px;
+    border-radius: 10px;
+    width: 245px;
+    height: 281.5px;
+    object-fit: cover;
+}
+
+.img-semana-da-engenharia-image-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 70px 10px 10px 10px;
+    width: 369px;
+    height: 576px;
+    object-fit: cover;
+}
+
+.img-semana-da-engenharia-image-4 {
+    position: absolute;
+    top: 588px;
+    left: 0px;
+    border-radius: 10px 10px 70px 10px;
+    width: 626px;
+    height: 353px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Projetos Práticos -------------------------------------------------------------------------------------------------------------------------*/
+.grupo-projeto-pratico {
+    position: absolute;
+    top: 6217px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    color: #fff;
+    background-color: #0079cc;
+}
+
+.bloco-texto-projetos-praticos {
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 798px);
+    display: inline-block;
+    width: 975px;
+    height: 699px;
+}
+
+.img-logos {
+    position: absolute;
+    top: 0px;
+    left: 1032px;
+    width: 874px;
+    height: 874px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Grade Curricular --------------------------------------------------------------------------------------------------------------------------*/
+.container-grade-curricular {
+    position: absolute;
+    top: 8960px; 
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 1080px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00a766;
+}
+
+.link-grade-curricular{
+    position: absolute;
+    top: 837px;
+    left: 1380px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    width: 351px;
+}
+.img-grade-curricular {
+    position: absolute;
+    top: 137px;
+    left: 1293px;
+    border-radius: 10px;
+    width: 465px;
+    height: 680px;
+    object-fit: cover;
+}
+
+.bloco-grade-curricular {
+    position: absolute;
+    top: 30px;
+    left: 162px;
+    display: inline-block;
+    width: 950px;
+    height: 794px;
+    font-size: 22px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Visitando Empresas ------------------------------------------------------------------------------------------------------------------------*/
+.grupo-visita {
+    width: 100%;
+    position: absolute;
+    height: 1440px;
+    text-align: left;
+    font-size: 22px;
+    color: #000;
+    font-family: Inter;
+    top: 7285px;
+    right: 100px;
+}
+
+.bloco-texto {
+    position: absolute;
+    top: 61px;
+    left: calc(50% - 678.5px);
+    display: inline-block;
+    width: 1596px;
+}
+
+.group-child {
+    position: absolute;
+    top: 352px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.group-item {
+    position: absolute;
+    top: 704px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.group-inner {
+    position: absolute;
+    top: 352px;
+    left: 485px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 485px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.group-child1 {
+    position: absolute;
+    top: 704px;
+    left: 485px;
+    border-radius: 10px 10px 70px 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.group-child2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 70px 10px 10px 10px;
+    background-color: #d9d9d9;
+    width: 465px;
+    height: 332px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 550px;
+    left: 985px;
+    width: 950px;
+    height: 1036px;
+}
+.img-vector-estudante {
+    position: absolute;
+    top: 200px;
+    left: 85px;
+    width: 920px;
+    height: 1480px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Rodapé ------------------------------------------------------------------------------------------------------------------------------------*/
+.rodap {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 960px);
+    background-color: #242149;
+    width: 1920px;
+    height: 100px;
+    color: white;
+}
+.unifecaf {
+    position: absolute;
+    left: 1549px;
+    font-weight: 800;
+    font-size: 42px;
+    top: 25px;
+}
+.copyright-2024 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 187px);
+    font-size: 16px;
+    top: 40px;
+}
+.img-logo-fecaf {
+    position: absolute;
+    top: 10px;
+    left: 162px;
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
