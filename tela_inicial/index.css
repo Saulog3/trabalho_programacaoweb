@@ -10,7 +10,7 @@ body {
     background-color: #fff;
     height: 4200px;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
     font-size: 18px;
     color: #fff;
     font-family: Inter;
@@ -40,19 +40,19 @@ body {
 /* Confira Nossos Cursos ---------------------------------------------------------------------------------------------------------------------*/
 .confira-nossos-cursos {
     position: absolute;
-    top: 628px;
-    left: 155px;
-    font-size: 25px;
+    top: 13%;
+    left: 4%;
+    font-size: 2rem;
     font-weight: 900;
     color: #000;
     display: inline-block;
-    width: 1550px;
+
 }
 
 .grupo-engenharias {
     position: absolute;
-    top: 854px;
-    left: 134px;
+    top: 16%;
+    left: 14%;
     display: flex; /* Usa flexbox para alinhar os itens em linha */
     gap: 41px; /* Espaço entre as imagens */
 }
@@ -76,8 +76,8 @@ body {
 /* Veja o currícul dos docentes --------------------------------------------------------------------------------------------------------------*/
 .veja-o-curriculo {
     position: absolute;
-    top: 1575px;
-    left: calc(50% - 458px);
+    top: 30%;
+    left: 1%;
     font-size: 27px;
     font-weight: 800;
     color: #000;
