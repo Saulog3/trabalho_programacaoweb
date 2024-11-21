@@ -11,31 +11,32 @@ body {
     height: 9999px;
     overflow: hidden;
     text-align: left;
-    font-size: 22px;
+    font-size: 17px;
     color: #000;
     font-family: Inter;
 }
 
 .banner {
-    width: 100%;
+    width: 1420px;
     position: relative;
     border-radius: 0px 0px 148px 148px;
     max-width: 100%;
     overflow: hidden;
-    height: 635px;
+    height: 435px;
     object-fit: cover;
     z-index: 1;
 }
 
 .grupo-linha {
-    width: 100%;
+    width: 4200px;
     position: relative;
-    max-width: 100%;
+    max-width: 1900px;
     overflow: hidden;
     height: 9566.75;
-    top: -400px;
+    top: -300px;
     
 }
+
 
 .botao-voltar {
     position: absolute;
@@ -53,23 +54,24 @@ body {
 .botao-voltar:hover {
     transform: scale(1.1);
 }
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Sobre o Curso ----------------------------------------------------------------------------------------------------------------------------*/
 .grupo-sobre-o-curso {
     position: absolute;
-    top: 735px;
+    top: 625px;
     left: calc(50% - 718px);
-    width: 1438px;
+    width: 1238px;
     height: 510px;
 }
 
 .container-sobre-o-curso {
     position: absolute;
     top: 0px;
-    left: calc(50% - 70px);
+    left: calc(50% - -112px);
     display: inline-block;
-    width: 789px;
+    width: 428px;
     height: 426px;
 }
 
@@ -82,16 +84,15 @@ body {
 
 .img-sobre-o-curso {
     position: absolute;
-    top: 10px;
-    left: 0px;
+    top: 52px;
+    left: 250px;
     border-radius: 70px 10px 70px 10px;
-    width: 627px;
-    height: 500px;
+    width: 427px;
+    height: 490px;
     object-fit: cover;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* O que vamos aprender? --------------------------------------------------------------------------------------------------------------------*/
 .grupo-o-que-vamos-aprender {
     position: absolute;
     top: 1255px;
@@ -104,20 +105,20 @@ body {
 .container-aprender {
     position: absolute;
     top: 113px;
-    left: 0px;
+    left: -82px;
     border-radius: 10px 70px 10px 70px;
     background-color: #242149;
-    width: 1636px;
+    width: 1306px;
     height: 972px;
 }
 
 .container-aprender p {
-    width: 950px;
+    width: 550px;
     margin-left: 50px;
 }
 
 .titulo-aprender {
-    font-size: 42px;
+    font-size: 32px;
     margin-bottom: 0;
     margin-left: 50px;
     font-weight: 600;
@@ -126,7 +127,7 @@ body {
 .img-homem-pensativo {
     position: absolute;
     top: -20px;
-    left: 956px;
+    left: 496px;
     width: 765px;
     height: 1105px;
     object-fit: cover;
@@ -147,143 +148,145 @@ body {
 
 .titulo-grupo-pesquisas {
     position: absolute;
-    top: 0px;
-    font-size: 42px;
+    top: 83px;
+    left: calc(50% - 1034px);
+    font-size: 39px;
     font-weight: 500;
     color: #000;
     text-align: center;
     display: inline-block;
-    width: 1274px;
+    width: 1267px;
     height: 101px;
 }
 /* Blocos - Grupo de pesquisas ---------------------------------------------------------------------------------------------------------------*/ 
 .bloco-sistemas-its-item {
     position: absolute;
-    top: 146px;
-    left: 112px;
+    top: 90px;
+    left: 71px;
     border-top: 1px solid #00a766;
     box-sizing: border-box;
-    width: 81px;
-    height: 1px;
+    width: 78px;
+    height: 9px;
 }
 
 .bloco-gestao-da-producao {
     position: absolute;
-    top: 221px;
-    left: 0px;
+    top: 251px;
+    left: -74px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .img-geral {
     position: absolute;
-    top: 19px;
-    left: 92px;
-    width: 119px;
-    height: 119px;
+    top: 21px;
+    left: 82px;
+    width: 56px;
+    height: 56px;
     overflow: hidden;
 }
 
 .titulo-geral {
     position: absolute;
-    top: 140px;
-    left: 40px;
-    font-size: 16px;
+    top: 83px;
+    left: 9px;
+    font-size: 17px;
     display: inline-block;
     font-weight: 600;
-    width: 230px;
-    height: 17px;
+    width: 209px;
+    height: 19px;
     text-align: center;
 }
 
 .paragrafo-geral {
     position: absolute;
-    top: 180px;
-    left: 24px;
+    top: 145px;
+    left: 10px;
     font-weight: 500;
     display: inline-block;
-    width: 270px;
-    height: 142px;
+    width: 205px;
+    height: 121px;
+    font-size: 96%;
 }
 
 .bloco-seguranca-do-trabalho {
     position: absolute;
-    top: 221px;
-    left: 323px;
+    top: 251px;
+    left: 172px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-qualidade-e-certificacoes {
     position: absolute;
-    top: 221px;
-    left: 646px;
+    top: 251px;
+    left: 419px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-economica-e-fincanceira {
     position: absolute;
-    top: 221px;
-    left: 970px;
+    top: 251px;
+    left: 665px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-inovacao {
     position: absolute;
-    top: 606px;
-    left: 0px;
+    top: 604px;
+    left: -74px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-gestao-ambiental {
     position: absolute;
     top: 604px;
-    left: 323px;
+     left: 172px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-manufatura {
     position: absolute;
     top: 604px;
-    left: 646px;
+    left: 419px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .bloco-logistica-e-distribuicao {
     position: absolute;
     top: 604px;
-    left: 970px;
+    left: 665px;
     box-shadow: 0px 7px 15.1px rgba(0, 0, 0, 0.25);
-    width: 303px;
-    height: 333px;
+    width: 232px;
+    height: 310px;
     background-color: #242149;
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 
@@ -302,13 +305,14 @@ body {
 .bloco-texto-palestras {
     position: absolute;
     display: inline-block;
-    top: 50px;
-    width: 790px;
-    height: 400px;
+    top: -41px;
+    width: 610px;
+    left: 197px;
+    height: 401px;  
 }
 
 .titulo-palestras {
-    width: 844px;
+    width: 644px;
     position: relative;
     font-size: 42px;
     font-weight: 600;
@@ -330,21 +334,21 @@ body {
 
 .img-palestras-retangulo-1 {
     position: absolute;
-    top: 164px;
-    left: 0px;
+    top: 242px;
+    left: 28px;
     border-radius: 70px 10px 70px 10px;
-    width: 323px;
-    height: 412px;
+    width: 245px;
+    height: 326px;
     object-fit: cover;
 }
 
 .img-palestras-retangulo-2 {
     position: absolute;
-    top: 0px;
-    left: 294px;
+    top: 132px;
+    left: 213px;
     border-radius: 70px 10px 70px 10px;
-    width: 406px;
-    height: 518px;
+    width: 233px;
+    height: 341px;
     object-fit: cover;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -352,17 +356,18 @@ body {
 /* Vídeo do curso  ---------------------------------------------------------------------------------------------------------------------------*/
 .container-mais-sobre-o-curso {
     position: absolute;
-    top: 4272px;
+    top: 4500px;
     left: 323px;
-    width: 1274px;
-    height: 796px;
-    font-size: 42px;
+    width: auto;
+    height: 400px;
+    font-size: 2em;
 }
 
 .bloco-texto-video {
     position: absolute;
-    top: 0px;
-    left: calc(50% - 450px);
+    top: -80px;
+    left: 1%;
+    display: block;
 }
 
 .texto-sobre-o-curso-1 {
@@ -375,15 +380,16 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     overflow: hidden;
+    display: block;
 }
 
 video {
     position: absolute;
     top: 71px;
-    left: 0px;
+    left: -209px;
     border-radius: 10px;
-    width: 1274px;
-    height: 725px;
+    width: 1026px;
+    height: 503px;
     object-fit: cover;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -402,7 +408,7 @@ video {
     top: -40px;
     left: calc(50% + 10px);
     display: inline-block;
-    width: 788px;
+    width: 615px;
     height: 943px;
 }
 
@@ -410,7 +416,7 @@ video {
     font-size: 42px;
     font-weight: 600;
     font-family: Inter;
-    margin-bottom: -35px; 
+    margin-bottom: -22px; 
 }
 
 .img-linhalogo {
@@ -429,41 +435,41 @@ video {
 
 .img-semana-da-engenharia-image-1 {
     position: absolute;
-    top: 293.54px;
-    left: 381px;
+    top: 189.54px;
+    left: 464px;
     border-radius: 10px;
-    width: 245px;
-    height: 282.5px;
+    width: 167px;
+    height: 174.5px;
     object-fit: cover;
 }
 
 .img-semana-da-engenharia-image-2 {
     position: absolute;
-    top: 0px;
-    left: 381px;
+    top: 3px;
+    left: 464px;
     border-radius: 10px;
-    width: 245px;
-    height: 281.5px;
+    width: 166px;
+    height: 182.5px;
     object-fit: cover;
 }
 
 .img-semana-da-engenharia-image-3 {
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 181px;
     border-radius: 70px 10px 10px 10px;
-    width: 369px;
-    height: 576px;
+    width: 269px;
+    height: 366px;
     object-fit: cover;
 }
 
 .img-semana-da-engenharia-image-4 {
     position: absolute;
-    top: 588px;
-    left: 0px;
+    top: 381px;
+    left: 174px;
     border-radius: 10px 10px 70px 10px;
-    width: 626px;
-    height: 353px;
+    width: 457px;
+    height: 233px;
     object-fit: cover;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -479,24 +485,31 @@ video {
     background-color: #0079cc;
 }
 
+.titulo-semana-da-engenharia {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Inter;
+    margin-bottom: -14px;
+}
+
 .bloco-texto-projetos-praticos {
     position: absolute;
-    top: 40px;
-    left: calc(50% - 798px);
+    top: 50px;
+    left: calc(50% - 916px);
     display: inline-block;
-    width: 975px;
+    width: 567px;
     height: 699px;
 }
 
 .img-logos {
     position: absolute;
-    top: 110px;
-    left: 1032px;
-    width: 874px;
-    height: 874px;
+    top: 167px;
+    left: 586px;
+    width: 739px;
+    height: 745px;
     object-fit: cover;
 }
-/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------
 
 /* Grade Curricular --------------------------------------------------------------------------------------------------------------------------*/
 .container-grade-curricular {
@@ -510,10 +523,17 @@ video {
     background-color: #00a766;
 }
 
+.titulo-semana-da-engenharia {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Inter;
+    margin-bottom: -14px;
+}
+
 .link-grade-curricular{
     position: absolute;
-    top: 837px;
-    left: 1380px;
+    top: 767px;
+    left: 1261px;
     text-decoration: underline;
     font-weight: 600;
     color: inherit;
@@ -522,22 +542,22 @@ video {
 }
 .img-grade-curricular {
     position: absolute;
-    top: 137px;
-    left: 1293px;
+    top: 165px;
+    left: 1206px;
     border-radius: 10px;
-    width: 465px;
-    height: 680px;
+    width: 379px;
+    height: 551px;
     object-fit: cover;
 }
 
 .bloco-grade-curricular {
     position: absolute;
-    top: 50px;
-    left: 162px;
+    top: 55px;
+    left: 440px;
     display: inline-block;
-    width: 950px;
-    height: 794px;
-    font-size: 22px;
+    width: 711px;
+    height: 771px;
+    font-size: 17px;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -547,7 +567,7 @@ video {
     position: absolute;
     height: 1440px;
     text-align: left;
-    font-size: 22px;
+    font-size: 17px;
     color: #000;
     font-family: Inter;
     top: 7285px;
@@ -556,79 +576,79 @@ video {
 
 .bloco-texto {
     position: absolute;
-    top: 61px;
-    left: calc(50% - 678.5px);
+    top: 15px;
+    left: calc(50% - 522.5px);
     display: inline-block;
-    width: 1596px;
+    width: 1154px;
 }
 
 .group-child {
     position: absolute;
-    top: 352px;
-    left: 0px;
+    top: 134px;
+    left: -162px;
     border-radius: 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .group-item {
     position: absolute;
-    top: 704px;
-    left: 0px;
+    top: 369px;
+    left: -160px;
     border-radius: 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .group-inner {
     position: absolute;
-    top: 352px;
-    left: 485px;
+    top: 136px;
+    left: 173px;
     border-radius: 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .rectangle-div {
     position: absolute;
-    top: 0px;
-    left: 485px;
+    top: -102px;
+    left: 175px;
     border-radius: 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .group-child1 {
     position: absolute;
-    top: 704px;
-    left: 485px;
+    top: 369px;
+    left: 175px;
     border-radius: 10px 10px 70px 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .group-child2 {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -103px;
+    left: -163px;
     border-radius: 70px 10px 10px 10px;
     background-color: #d9d9d9;
-    width: 465px;
-    height: 332px;
+    width: 324px;
+    height: 225px;
 }
 .rectangle-parent {
     position: absolute;
     top: 550px;
-    left: 985px;
+    left: 919px;
     width: 950px;
     height: 1036px;
 }
 .img-vector-estudante {
     position: absolute;
-    top: 200px;
-    left: 85px;
-    width: 920px;
-    height: 1480px;
+    top: 410px;
+    left: 75px;
+    width: 772px;
+    height: 1266px;
     object-fit: cover;
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -645,7 +665,7 @@ video {
 }
 .unifecaf {
     position: absolute;
-    left: 1549px;
+    left: 1296px;
     font-weight: 800;
     font-size: 42px;
     top: 25px;
@@ -653,14 +673,14 @@ video {
 .copyright-2024 {
     position: absolute;
     bottom: 60px;
-    left: calc(50% - 187px);
+    left: calc(50% - 250px);
     font-size: 16px;
     top: 40px;
 }
 .img-logo-fecaf {
     position: absolute;
     top: 10px;
-    left: 162px;
+    left: 319px;
     width: 86px;
     height: 86px;
     object-fit: cover;
