@@ -1,3 +1,4 @@
+
 /* Estilos Gerais --------------------------------------------------------------------------------------------------------------------------- */
 * {
     margin: 0;
@@ -14,14 +15,12 @@ body {
 
 .tela-de-apresentao {
     width: 100%;
-    position: relative;
+    position: fixed;
     background-color: #fff;
     text-align: left;
-    font-size: 2em;
-    color: #fff;
-    font-family: Inter;
 }
 
+/* Banner e Grupo Linha Responsivos */
 .banner {
     width: 100%;
     height: auto;
@@ -29,20 +28,15 @@ body {
     border-radius: 0 0 50px 50px;
 }
 
-
 .grupo-linha {
     width: 100%;
     height: auto;
     max-width: 100%;
 }
 
+/* Confira Nossos Cursos */
 .confira-nossos-cursos {
-    position: absolute;
-    top: 728px;
-    left: 162px;
-    font-size: 2rem;
-    color: #000;
-    display: inline-block;
+    margin: 20px auto;
     font-size: 2rem;
     font-weight: 900;
     color: #000;
@@ -50,21 +44,8 @@ body {
     max-width: 90%;
 }
 
-.grupo-engenharias {
-    position: absolute;
-    top: 954px;
-    left: 162px;
-    display: flex; /* Usa flexbox para alinhar os itens em linha */
-    gap: 41px; /* Espaço entre as imagens */
-}
-
-.grupo-engenharias-img {
-    border-radius: 10px;
-    width: 368.1px;
-    height: 457px;
-    object-fit: cover;
-    cursor: pointer;
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
+.boxeng{
+    width: 1000px;
 }
 
 .grupo-engenharias {
@@ -76,369 +57,106 @@ body {
     padding: 0 10px;
 }
 
-.grupo-engenharias-img:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 30px 2px #242149;
+.grupo-engenharias-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------------------------------*/
+.grupo-engenharias-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px 2px #242149;
+}
 
-/* Veja o currícul dos docentes --------------------------------------------------------------------------------------------------------------*/
+/* Veja o Currículo */
 .veja-o-curriculo {
-    position: absolute;
-    top: 1561px;
-    left: calc(50% - 798px);
-    font-size: 42px;
+    margin: 40px auto;
+    font-size: 1.5rem;
     font-weight: 800;
     color: #000;
-    display: inline-block;
-    width: 1596px;
+    text-align: center;
+    max-width: 90%;
 }
 
 .bloco-coordenacao {
-    position: absolute;
-    top: 1712px;
-    left: 323px;
-    width: 1274px;
-    height: 410px;
-    font-size: 22px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
 }
 
 .image-2-icon {
-    position: absolute;
-    top: 1px;
-    left: 970px;
-    border-radius: 10px 70px 10px 10px;
-    width: 304px;
-    height: 409px;
+    border-radius: 10px 10px 10px 70px;
+    max-width: 300px;
+    height: auto;
     object-fit: cover;
 }
 
-.coordenacao-dos-cursos-sebasti-wrapper {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-radius: 10px 10px 10px 70px;
-    background-color: #242149;
-    width: 950px;
-    height: 409px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.coordenacao-dos-cursos-container {
-    width: 840px;
-    position: relative;
-    display: inline-block;
-    flex-shrink: 0;
-}
-
-.titulo-coordenao-dos-cursos{
-    font-size: 42px;
-    margin-block-end: 5px;
-}
-
-.sebastiao-garcia-junior {
-    margin-block-start: 0;
-    margin-block-end: 15px;
-    font-size: 22px;
-    color: #00a766;
-}
-
-.acessar-lattes-completo {
-    perspective: 800px;
-    display: inline-block;
-    
-
-}
-
-.docentes {
-    font-weight: 600;
-    transition: transform 0.6s ease;
-    display: inline-block;
-    color: #ffffff;
-    transition: transform 0.7s ease;
-}
-
-.acessar-lattes-completo:hover .docentes {
-    transform: scale(1.05) translateZ(20px);
-    color: #00a766;
-}
-
-.coordenacao-dos-cursos {
-    margin-block-start: 0;
-    margin-block-end: 15px;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------------ */
-
-/* Conheça os docentes ---------------------------------------------------------------------------------------------------------------------- */
-.nome-professores {
-    position: relative;
-    font-weight: 800;
-}
-.grupo-18, .grupo-17, .grupo-16, .grupo-15, .grupo-14, .grupo-13, .grupo-12, .grupo-12, .grupo-11, .grupo-10, .grupo-9, .grupo-8, .grupo-7, .grupo-6, .grupo-5, .grupo-4, .grupo-3, .grupo-2, .grupo-1 {
-    color: #fff;
-    transition: transform 0.6s ease;
-}
-
-.grupo-18:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-17:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-16:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-15:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-14:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-13:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-12:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-11:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-10:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-9:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-8:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-7:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-6:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-5:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-4:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-3:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-2:hover {
-    transform: scale(1.05);   
-}
-
-.grupo-1:hover {
-    transform: scale(1.05);   
+/* Conheça os Docentes */
+.conheca-os-docentes-container {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
 }
 
 .bloco-azul {
-    position: absolute;
-    top: 347px;
-    left: 0px;
-    border-radius: 10px 0px 10px 10px;
+    border-radius: 10px 0 10px 10px;
     background-color: #242149;
-    width: 303px;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     padding: 10px;
-    box-sizing: border-box;
-}
-
-.conheca-os-docentes-container {
-    position: absolute;
-    top: 2222px;
-    left: calc(50% - 354px);
-    font-size: 42px;
-    color: #ffffff;
-}
-
-.grupo-1 {
-    position: absolute;
-    top: 2343px;
-    left: 162px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-2 {
-    position: absolute;
-    top: 2343px;
-    left: 485px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-3 {
-    position: absolute;
-    top: 2343px;
-    left: 808px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-4 {
-    position: absolute;
-    top: 2343px;
-    left: 1131px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-5 {
-    position: absolute;
-    top: 2343px;
-    left: 1454px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-6 {
-    position: absolute;
-    top: 2760px;
-    left: 162px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-7 {
-    position: absolute;
-    top: 2760px;
-    left: 485px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-8 {
-    position: absolute;
-    top: 2760px;
-    left: 808px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-9 {
-    position: absolute;
-    top: 2760px;
-    left: 1131px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-10 {
-    position: absolute;
-    top: 2760px;
-    left: 1454px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-11 {
-    position: absolute;
-    top: 3177px;
-    left: 162px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-12 {
-    position: absolute;
-    top: 3177px;
-    left: 485px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-13 {
-    position: absolute;
-    top: 3177px;
-    left: 808px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-14 {
-    position: absolute;
-    top: 3177px;
-    left: 1131px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-15 {
-    position: absolute;
-    top: 3177px;
-    left: 1454px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-16 {
-    position: absolute;
-    top: 3594px;
-    left: 162px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-17 {
-    position: absolute;
-    top: 3594px;
-    left: 485px;
-    width: 303px;
-    height: 397px;
-}
-.grupo-18 {
-    position: absolute;
-    top: 3594px;
-    left: 808px;
-    width: 303px;
-    height: 397px;
-}
-/* -------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/* Rodapé ------------------------------------------------------------------------------------------------------------------------------------*/
-.rodap {
-    position: absolute;
-    bottom: 0px;
-    left: calc(50% - 960px);
-    background-color: #242149;
-    width: 1920px;
-    height: 100px;
     color: white;
+    text-align: center;
 }
+
+.grupo-1, .grupo-2, .grupo-3, .grupo-4, .grupo-5,
+.grupo-6, .grupo-7, .grupo-8, .grupo-9, .grupo-10,
+.grupo-11, .grupo-12, .grupo-13, .grupo-14, .grupo-15,
+.grupo-16, .grupo-17, .grupo-18 {
+    margin: 10px auto;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.6s ease;
+}
+
+.grupo-1:hover, .grupo-2:hover, .grupo-3:hover, .grupo-4:hover, .grupo-5:hover,
+.grupo-6:hover, .grupo-7:hover, .grupo-8:hover, .grupo-9:hover, .grupo-10:hover,
+.grupo-11:hover, .grupo-12:hover, .grupo-13:hover, .grupo-14:hover, .grupo-15:hover,
+.grupo-16:hover, .grupo-17:hover, .grupo-18:hover {
+    transform: scale(1.05);
+}
+
+/* Rodapé Responsivo */
+.rodap {
+    background-color: #242149;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 .unifecaf {
-    position: absolute;
-    left: 1549px;
     font-weight: 800;
-    font-size: 42px;
-    top: 25px;
+    font-size: 1.5rem;
 }
+
 .copyright-2024 {
-    position: absolute;
-    bottom: 60px;
-    left: calc(50% - 187px);
-    font-size: 16px;
-    top: 40px;
+    font-size: 1rem;
 }
-.img-logo-fecaf {
-    position: absolute;
-    top: 10px;
-    left: 162px;
-    width: 86px;
-    height: 86px;
-    object-fit: cover;
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .confira-nossos-cursos {
+        font-size: 1.5rem;
+    }
+
+    .veja-o-curriculo {
+        font-size: 1.2rem;
+    }
+
+    .conheca-os-docentes-container {
+        font-size: 1.8rem;
+    }
 }
-/* -------------------------------------------------------------------------------------------------------------------------------------------*/
