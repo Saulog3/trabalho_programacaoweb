@@ -87,8 +87,8 @@ body {
 
 .bloco-coordenacao {
     position: absolute;
-    top: 1712px;
-    left: 35px;
+    top: 33%;
+    left: 10%;
     width: 1004px;
     height: 410px;
     font-size: 22px;
@@ -265,7 +265,7 @@ body {
 
 .conheca-os-docentes-container {
     position: absolute;
-    top: 2200px;
+    top: 47%;
     left: calc(50% - 354px);
     font-size: 42px;
     color: #ffffff;
@@ -281,106 +281,106 @@ body {
 
 .grupo-1 {
     position: absolute;
-    top: 2343px;
-    left: 52px;
+    top: 50%;
+    left: 10%;
     
 }
 .grupo-2 {
     position: absolute;
-    top: 2343px;
-    left: 305px;
+    top: 50%;
+    left: 25%;
     
 }
 .grupo-3 {
     position: absolute;
-    top: 2343px;
-    left: 558px;
+    top: 50%;
+    left: 40%;
 }
 .grupo-4 {
     position: absolute;
-    top: 2343px;
-    left: 810px;
+    top: 50%;
+    left: 55%;
 }
 .grupo-5 {
     position: absolute;
-    top: 2343px;
-    left: 1060px;
+    top: 50%;
+    left: 70%;
 }
 .grupo-6 {
     position: absolute;
-    top: 2760px;
-    left: 52px;
+    top: 60%;
+    left: 10%;
    
 }
 .grupo-7 {
     position: absolute;
-    top: 2760px;
-    left: 305px;
+    top: 60%;
+    left: 25%;
     
 }
 .grupo-8 {
     position: absolute;
-    top: 2760px;
-    left: 558px;
+    top: 60%;
+    left: 40%;
     
 }
 .grupo-9 {
     position: absolute;
-    top: 2760px;
-    left: 810px;
+    top: 60%;
+    left: 55%;
     
 }
 .grupo-10 {
     position: absolute;
-    top: 2760px;
-    left: 1060px;
+    top: 60%;
+    left: 70%;
     
 }
 .grupo-11 {
     position: absolute;
-    top: 3177px;
-    left: 52px;
+    top: 70%;
+    left: 10%;
     
 }
 .grupo-12 {
     position: absolute;
-    top: 3177px;
-    left: 305px;
+    top: 70%;
+    left: 25%;
     
 }
 .grupo-13 {
     position: absolute;
-    top: 3177px;
-    left: 558px;
+    top: 70%;
+    left: 40%;
     
 }
 .grupo-14 {
     position: absolute;
-    top: 3177px;
-    left: 810px;
+    top: 70%;
+    left: 55%;
 }
 .grupo-15 {
     position: absolute;
-    top: 3177px;
-    left: 1060px;
+    top: 70%;
+    left: 70%;
     
 }
 .grupo-16 {
     position: absolute;
-    top: 3594px;
-    left: 305px;
+    top: 80%;
+    left: 25%;
     
 }
 .grupo-17 {
     position: absolute;
-    top: 3594px;
-    left: 558px;
+    top: 80%;
+    left: 40%;
     
 }
 .grupo-18 {
     position: absolute;
-    top: 3594px;
-    left: 810px;
+    top: 80%;
+    left: 55%;
     
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -391,9 +391,10 @@ body {
     bottom: 0px;
     left: calc(50% - 960px);
     background-color: #242149;
-    width: 1720px;
+    width: 1800px;
     height: 100px;
     color: white;
+    text-align: center;
 }
 .unifecaf {
     position: absolute;
