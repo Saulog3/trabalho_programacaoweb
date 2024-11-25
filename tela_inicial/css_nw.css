@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+
+
+
+}
+
+.tela-de-apresentao {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 4200px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+    background-image: url(img/img-linha+fundo-verde.png.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.banner {
+    border-radius: 0px 0px 148px 148px;
+    overflow: hidden;
+
+}
+
+
+.confira-nossos-cursos {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000;
+    padding-bottom: 40px;
+
+}
+.grupo-engenharias {
+    display: flex; /* Usa flexbox para alinhar os itens em linha */
+    gap: 41px; /* Espaço entre as imagens */
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.confira-nossos-cursos {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000;
+
+
+}
+
+.grupo-engenharias-img {
+    border-radius: 10px;
+    width: 250.1px;
+    height: 457px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.grupo-engenharias-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 2px #242149;
+}
+
+.veja-o-curriculo {
+    font-size: 27px;
+    font-weight: 800;
+    color: #000;
+    text-align: center;
+    padding: 50px;
+
+}
+.bloco-coordenacao {
+
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+
+}
+.image-2-icon {
+
+    border-radius: 10px 70px 10px 10px;
+    width: 304px;
+    height: 409px;
+
+
+
+}
+.coordenacao-dos-cursos-sebasti-wrapper {
+    border-radius: 10px 10px 10px 70px;
+    background-color: #242149;
+    width: 950px;
+    height: 409px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.coordenacao-dos-cursos-container {
+    width: 840px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.titulo-coordenao-dos-cursos{
+    font-size: 42px;
+    margin-block-end: 5px;
+}
+.sebastiao-garcia-junior {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+    font-size: 22px;
+    color: #00a766;
+}
+
+.acessar-lattes-completo {
+    perspective: 800px;
+    display: inline-block;
+    
+
+}
+
+.docentes {
+    font-weight: 600;
+    transition: transform 0.6s ease;
+    display: inline-block;
+    color: #ffffff;
+    transition: transform 0.7s ease;
+}
+.acessar-lattes-completo:hover {
+    transform: scale(1.05) translateZ(20px);
+    color: #00a766;
+}
+.coordenacao-dos-cursos {
+    margin-block-start: 0;
+    margin-block-end: 15px;
+}
+.nome-professores {
+    position: relative;
+    font-weight: 800;
+}
+.grupo-18, .grupo-17, .grupo-16, .grupo-15, .grupo-14, .grupo-13, .grupo-12, .grupo-12, .grupo-11, .grupo-10, .grupo-9, .grupo-8, .grupo-7, .grupo-6, .grupo-5, .grupo-4, .grupo-3, .grupo-2, .grupo-1 {
+    color: #fff;
+    transition: transform 0.6s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grupo-18:hover, .grupo-17:hover, .grupo-16:hover, .grupo-15:hover, .grupo-14:hover, .grupo-13:hover, .grupo-12:hover, .grupo-12:hover, .grupo-11:hover, .grupo-10:hover, .grupo-9:hover, .grupo-8:hover, .grupo-7:hover, .grupo-6:hover, .grupo-5:hover, .grupo-4:hover, .grupo-3:hover, .grupo-2:hover, .grupo-1:hover {
+    transform: scale(1.05);   
+}
+
+
+.bloco-azul {
+    position: absolute;
+    top: 287px;
+    left: 0px;
+    border-radius: 10px 0px 10px 10px;
+    background-color: #242149;
+    width: 233px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.conheca-os-docentes-container {
+    position: absolute;
+    top: 47%;
+    left: calc(50% - 354px);
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.image-icon {
+
+    top: 2343px;
+    left: 62px;
+    width: 233px;
+    height: 327px;
+}
+
+.grupo-1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    
+}
+.grupo-2 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    
+}
+.grupo-3 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.grupo-4 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+.grupo-5 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+.grupo-6 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+   
+}
+.grupo-7 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    
+}
+.grupo-8 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    
+}
+.grupo-9 {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    
+}
+.grupo-10 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    
+}
+.grupo-11 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    
+}
+.grupo-12 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    
+}
+.grupo-13 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    
+}
+.grupo-14 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+.grupo-15 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    
+}
+.grupo-16 {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    
+}
+.grupo-17 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    
+}
+.grupo-18 {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    
+}
+
+.rodap {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 960px);
+    background-color: #242149;
+    width: 1920px;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.unifecaf {
+    position: absolute;
+    left: 1379px;
+    font-weight: 800;
+    font-size: 42px;
+    top: 25px;
+}
+.copyright-2024 {
+    position: absolute;
+    bottom: 60px;
+    left: calc(50% - 97px);
+    font-size: 16px;
+    top: 40px;
+}
+.img-logo-fecaf {
+    position: absolute;
+    top: 10px;
+    left: 362px;
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------*/
