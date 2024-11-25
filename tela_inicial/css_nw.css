@@ -17,7 +17,7 @@ body {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 4200px;
+    height: 3800px;
     overflow: hidden;
     text-align: center;
     font-size: 18px;
@@ -26,11 +26,14 @@ body {
     background-image: url(img/img-linha+fundo-verde.png.png);
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
 }
 
 .banner {
     border-radius: 0px 0px 148px 148px;
     overflow: hidden;
+    width: 98%;
+
 
 }
 
@@ -98,7 +101,7 @@ body {
 .coordenacao-dos-cursos-sebasti-wrapper {
     border-radius: 10px 10px 10px 70px;
     background-color: #242149;
-    width: 950px;
+    width: 850px;
     height: 409px;
     display: flex;
     flex-direction: row;

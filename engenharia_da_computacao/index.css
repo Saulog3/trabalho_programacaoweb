@@ -24,7 +24,8 @@ body {
     overflow: hidden;
     height: 435px;
     object-fit: cover;
-    z-index: 1;
+    text-align: center;
+    margin: auto;
 }
 
 .grupo-linha {
