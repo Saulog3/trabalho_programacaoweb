@@ -8,12 +8,15 @@ body {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 9999px;
+    height: 8700px;
     overflow: hidden;
     text-align: left;
     font-size: 17px;
     color: #000;
     font-family: Inter;
+    margin: auto;
+    text-align: center;
+    background-image: url(../tela_inicial/img-pages/img-linha+fundo-verde.png);
 }
 
 .banner {
@@ -40,14 +43,14 @@ body {
 .botao-voltar {
     position: absolute;
     top: 38px;
-    left: 44px;
+    left: 110px;
     width: 127px;
     height: 32px;
     overflow: hidden;
     object-fit: contain;
     cursor: pointer;
     z-index: 1;
-    transition: transform 0.6s ease;
+    transition: transform 0.6s ease; 
 }
 
 .botao-voltar:hover {
@@ -529,7 +532,7 @@ video {
 /* Grade Curricular --------------------------------------------------------------------------------------------------------------------------*/
 .container-grade-curricular {
     position: absolute;
-    top: 8960px; 
+    top: 7600px; 
     left: calc(50% - 960px);
     width: 1920px;
     height: 1080px;
