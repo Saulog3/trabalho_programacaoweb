@@ -8,23 +8,24 @@ body {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 9999px;
+    height: 8200px;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
     font-size: 17px;
     color: #000;
     font-family: Inter;
 }
 
 .banner {
-    width: 1420px;
+    width: 95%;
     position: relative;
     border-radius: 0px 0px 148px 148px;
     max-width: 100%;
     overflow: hidden;
     height: 435px;
     object-fit: cover;
-    z-index: 1;
+    margin: auto;
+
 }
 
 .grupo-linha {
@@ -119,9 +120,10 @@ body {
 
 .titulo-aprender {
     font-size: 32px;
-    margin-bottom: 0;
+    margin-bottom: 100px;
     margin-left: 50px;
     font-weight: 600;
+    text-align: left;
 }
 
 .img-homem-pensativo {
@@ -358,7 +360,7 @@ body {
     position: absolute;
     top: 4500px;
     left: 323px;
-    width: auto;
+    width: 800px;
     height: 400px;
     font-size: 2em;
 }
@@ -367,6 +369,7 @@ body {
     position: absolute;
     top: -80px;
     left: 1%;
+    width: 800px;
     display: block;
 }
 
@@ -514,7 +517,7 @@ video {
 /* Grade Curricular --------------------------------------------------------------------------------------------------------------------------*/
 .container-grade-curricular {
     position: absolute;
-    top: 8960px; 
+    top: 7290px; 
     left: calc(50% - 960px);
     width: 1920px;
     height: 1080px;

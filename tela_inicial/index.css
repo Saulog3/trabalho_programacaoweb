@@ -17,10 +17,10 @@ body {
 }
 
 .banner {
-    width: 1420px;
+    width: 95%;
     position: relative;
     border-radius: 0px 0px 148px 148px;
-    max-width: 100%;
+    max-width: 150%;
     overflow: hidden;
     height: 435px;
     object-fit: cover;
@@ -35,6 +35,24 @@ body {
     height: 9566.75;
     top: -300px;
 }
+
+.botao-voltar {
+    position: absolute;
+    top: 38px;
+    left: 110px;
+    width: 127px;
+    height: 32px;
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+    z-index: 1;
+    transition: transform 0.6s ease; 
+}
+
+.botao-voltar:hover {
+    transform: scale(1.1);
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Confira Nossos Cursos ---------------------------------------------------------------------------------------------------------------------*/

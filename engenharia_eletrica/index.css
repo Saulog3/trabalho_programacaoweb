@@ -8,23 +8,26 @@ body {
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 9999px;
+    height: 8200px;
     overflow: hidden;
-    text-align: left;
     font-size: 17px;
     color: #000;
     font-family: Inter;
+    margin: auto;
+    text-align: center;
+    
 }
 
 .banner {
-    width: 1420px;
     position: relative;
     border-radius: 0px 0px 148px 148px;
     max-width: 100%;
     overflow: hidden;
     height: 435px;
     object-fit: cover;
-    z-index: 1;
+    text-align: center;
+    width: 95%;
+    margin: auto;
 }
 
 .grupo-linha {
@@ -41,7 +44,7 @@ body {
 .botao-voltar {
     position: absolute;
     top: 38px;
-    left: 44px;
+    left: 150px;
     width: 127px;
     height: 32px;
     overflow: hidden;
@@ -122,6 +125,7 @@ body {
     margin-bottom: 0;
     margin-left: 50px;
     font-weight: 600;
+    text-align: left;
 }
 
 .img-homem-pensativo {
@@ -530,10 +534,10 @@ video {
 /* Grade Curricular --------------------------------------------------------------------------------------------------------------------------*/
 .container-grade-curricular {
     position: absolute;
-    top: 8960px; 
+    top: 7290px; 
     left: calc(50% - 960px);
     width: 1920px;
-    height: 1080px;
+    height: 1100px;
     font-size: 18px;
     color: #fff;
     background-color: #00a766;

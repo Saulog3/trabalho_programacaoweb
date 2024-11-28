@@ -124,9 +124,10 @@ body {
 
 .titulo-aprender {
     font-size: 32px;
-    margin-bottom: 0;
+    margin-bottom: 60px;
     margin-left: 50px;
     font-weight: 600;
+    text-align: left;
 }
 
 .img-homem-pensativo {
